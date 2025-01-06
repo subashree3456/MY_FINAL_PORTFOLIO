@@ -1,0 +1,59 @@
+*{
+    padding: 0;
+    margin: 0;
+}
+
+
+body{
+    background-color: black;
+}
+
+.movie-poster {
+    height: 640px;
+    width: 100%;
+    /* zoom  in */
+    object-fit: cover;
+  }
+
+  .movie-name {
+    font-size: 24px;
+    margin: 0;
+   color: #fff;
+  }
+
+  .movie-specs {
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    color: #fff;
+ 
+  }
+
+
+
+  .movie-container {
+    /* background-color: orange; */
+     height : min-content; 
+    object-fit: cover;
+     width: 350px;
+     
+   }
+
+
+   .movie-list{
+    display: flex;
+    gap:1rem;
+    align-items: stretch;
+    justify-content: space-around;
+    flex-wrap:wrap;
+    object-fit: cover;
+  }
+
+
+.movie-summary{
+    color:#fff;
+    padding-top :2rem;
+}
+
+
+
