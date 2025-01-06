@@ -1,0 +1,7 @@
+PORT=5000
+MONGO_DB_URI=mongodb+srv://subashri:NJ9MnhGqNUq8bxHX@cluster0.vxuqp99.mongodb.net/chat-app-db?
+retryWrites=true&w=majority&appName=Cluster0
+JWT_SECRET=WyWfD+m2JY7/UBg9FFAmM4/VozF0mETntkwiMTFWNBM=
+
+NODE_ENV=development
+
